@@ -1,0 +1,29 @@
+body
+{
+    background-color: gray; /*цвет фона*/
+    color: white; /* цвет текста*/
+}
+
+ul /* списки*/
+{
+    list-style-type: none; /* тип маркера списка*/
+}
+
+#menu a /* ссылки*/
+{
+    background-color: green;
+    display: block; /* блочный элемент*/
+    width: 120px; /* ширина*/
+    padding: 15px; /* отступ от текста до границы*/
+    margin-bottom: 10px; /* отступ от границы до следующего блока*/
+    text-decoration: none; /* подчеркивание*/
+    color: white;
+    border-radius: 10px; /* скругление по углам*/
+}
+
+#menu a:hover /* ссилки при наведении*/
+{
+    background-color: brown;
+    margin-left: 30px; /* отступ слева от границы*/
+    transition-duration: 1s; /* скорость движения*/
+}
